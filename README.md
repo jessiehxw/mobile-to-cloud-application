@@ -8,3 +8,6 @@ Part 1: Activity Generator App
 
 Part 2: Web Service Logging and Analysis Dashboard  
 [Read this](Project4Task2Writeup.pdf)
+
+#### Key words:
+#RESTful web service, #Android Studio, #API, #MongoDB, #Jakarta Server Pages
