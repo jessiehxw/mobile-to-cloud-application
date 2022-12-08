@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <!--
+    Author: Xiawei He
+    Andrew-id: xiaweih
+    -->
+    <!-- code referred to
+    https://stackoverflow.com/questions/16746212/servlet-mapping-direct-jsp-files-rather-than-using-a-servlet-to-manage-the-url-r
+    solution by Bill -->
+    <!-- link the dashboard.jsp to /dashboard url pattern -->
+    <servlet>
+        <servlet-name>dashboard</servlet-name>
+        <jsp-file>/dashboard.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dashboard</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
+</web-app>
