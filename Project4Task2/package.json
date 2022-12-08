@@ -1,0 +1,7 @@
+{
+  "name": "Project4Task2",
+  "version": "1.0.0",
+  "dependencies": {
+    "@mongodb-js/charts-embed-dom": "^2.2.0"
+  }
+}
