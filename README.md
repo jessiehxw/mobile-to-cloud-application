@@ -4,7 +4,7 @@ An Android application that randomly generates activity according to users’ ch
 
 #### Project Specifications
 Part 1: Activity Generator App   
-[Read this]: (Project4Task1Writeup.pdf)
+[Read this](Project4Task1Writeup.pdf)
 
 Part 2: Web Service Logging and Analysis Dashboard  
-[Read this]: (Project4Task2Writeup.pdf)
+[Read this](Project4Task2Writeup.pdf)
