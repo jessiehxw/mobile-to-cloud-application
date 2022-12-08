@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Activity Machine</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="app_title">Activity Generator</string>
+    <string name="submit">SUBMIT</string>
+    <string name="prompt">Please enter activity type:</string>
+    <string name="searchType">(Leave blank for random generation)</string>
+    <string name="returnPrompt">Here is the activity for you:</string>
+    <string name="imageContent">Just a cute loading image</string>
+    <string name="first_fragment_label">Activity Generator - Home Page</string>
+    <string name="second_fragment_label">Activity Result</string>
+    <string name="next">Next</string>
+    <string name="previous">Retry</string>
+    <string name="input_error_message">Please enter the correct input</string>
+    <string name="internet_error_message">Please check your internet connection</string>
+    <string name="close_button">Close</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

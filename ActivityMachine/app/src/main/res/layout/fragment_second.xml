@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SecondFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBFF"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/activityReturned"
+        android:layout_width="296dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        android:backgroundTint="#CAC1EA"
+        android:text="@string/previous"
+        android:textColor="#484264"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/searchResult"
+        android:layout_width="296dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="492dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/returnPrompt"
+        android:textColor="#9185BC"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

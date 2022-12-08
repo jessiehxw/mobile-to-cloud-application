@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FirstFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBFF"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="296dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="529dp"
+        android:fontFamily="casual"
+        android:text="@string/app_title"
+        android:textColor="#9185BC"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="296dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="428dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/prompt"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="#CAC1EA"
+        android:onClick="submitButton"
+        android:text="@string/submit"
+        android:textColor="#484264"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/searchType"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="#CAC1EA"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/searchType"
+        android:inputType="textPersonName"
+        android:textColor="#787296"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cuteImage"
+        android:layout_width="413dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="491dp"
+        android:layout_marginBottom="4dp"
+        android:contentDescription="@string/imageContent"
+        android:src="@drawable/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
